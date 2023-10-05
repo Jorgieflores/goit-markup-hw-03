@@ -3,119 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goit-Homewok#02</title>
+    <title>Goit-Homewok#03</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />  
 </head>
 
-<body>
-    <header>
-        <nav>
-            <!-- Logo -->
-            <a href="webstudio" class="logo"><span>WEB</span>STUDIO</a>
-
-            <ul class="menus">
-                <!-- Menu Links -->
-                <li class="menu">
-                    <a class="menu studio" href="studio">Studio</a>
+<body class="container">
+    <header class="header container">
+        <!-- Navigation Bar -->
+        <nav class="navigation">
+            <div class="header-logo">
+                <a class="header-logo logo" href="webstudio" ><span>WEB</span>STUDIO</a>
+            </div>
+             <!-- Menu Links -->
+            <ul class="nav-link list">
+                <li class="nav-link list">
+                    <a class="header-studio link" href="studio">Studio</a>
                 </li>
-                <li class="menu">
-                    <a class="menu portfolio" href="portfolio">Porfolio</a>
+                 <li class="nav-link list">
+                    <a class="header-portfolio link" href="portfolio">Porfolio</a>
                 </li>
-                <li class="menu">
-                    <a class="menu contact" href="contacts">Contacts</a>
+                <li class="nav-link list">
+                    <a class="header-contacts link" href="contacts">Contacts</a>
                 </li>
             </ul>
-        </nav>
-        <ul class="menus">
-            <li class="menu">
-                <a class="menu email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </nav>    
+        <ul class="header-address list">
+            <li class="header-contacts"> 
+                <a class="header-address email" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="menu">
-                <a class="menu tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+            <li class="header-contacts"> 
+                <a class="header-address tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
             </li>
         </ul>
+    
     </header>
+    
+    <!-- MAIN -->
+    <main class="main container">
+        <!-- HERO Section -->
+        <section class="hero">
+            <div>
+                <h1 class="hero-title">Effective Solution <br/> For Your Business</h1>
+                <button class="hero-button button" type="button "><span></span>Order Service</button>
+            </div>
+       </section>
 
-    <main>
-
-        <!-- Effective Sulotion -->
-        <section class="sec1">
-             <h1>Effective Solution <br/> For Your Business</h1>
-             <button type="button ">Order Service</button>
-        </section>
-
-        <!-- Benefits and Goal -->
-        <section class="sec2">
-            <ul class="goals">
-                 <li class="goal">
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </li>   
-                <li class="goal">
-                    <h3>Puntiality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li class="goal">
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li class="goal">
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
-        </section>
+       <!-- Benefits and Goal Section -->
+       <section class="benefits">
+           <ul class="benefits-list list">
+                <li class="benefits-item">
+                   <h3 class="benefits-item title-text">Strategy</h3>
+                   <p class="benefits-item text">Our goal is to identify the business<br/>problem to walk away with the<br/>perfect and creative solution.</p>
+               </li>   
+               <li class="benefits-item">
+                   <h3 class="benefits-item title-text">Puntiality</h3>
+                   <p class="benefits-item text">Bring the key message to the<br/>brand's audience for the best price<br/>within the shortest possible time.</p>
+               </li>
+               <li class="benefits-item">
+                   <h3 class="benefits-item title-text">Diligence</h3>
+                   <p class="benefits-item text">Research and confirm brands that<br/>present the strongest digital growth<br/>opportunities and minimize risk.</p>
+               </li>
+               <li class="benefits-item">
+                   <h3 class="benefits-item title-text">Technologies</h3>
+                   <p class="benefits-item text">Design practice focused on digital<br/>experiences. We bring forth a deep<br/>passion for problem-solving.</p>
+               </li>
+           </ul>
+       </section>
 
         <!-- What are we doing -->
-        <section class="sec3">
-            <h2 class="Wedo">What Are We Doing</h2>
-                <ul class="wedoings">
-                    <li class="wedoing">
+        <section class="whatwedo">
+            <h2 class="whatwedo-title title">What Are We Doing</h2>
+                <ul class="whatwedo-list list">
+                    <li class="whatwedo-item">
                         <img src="./ImagesSection1/Rectangle 71 (1).jpg" alt="pc monitor" width="360"/>
                     </li>
-                    <li class="wedoing">
+                    <li class="whatwedo-item">
                         <img src="./ImagesSection1/img 2 (1).jpg" alt="CP messages" width="360">
                     </li>
-                    <li class="wedoing">
+                    <li class="whatwedo-item">
                         <img src="./ImagesSection1/img 3 (1).jpg" alt="CP with hand" width="360"/>
                     </li>
                 </ul>
         </section>
 
-        <!-- Our Team -->
-        <section class="sec4">
-            <h2 class="Ourteam">Our Team</h2>
-                <ul class="team">
-                    <li class="members">
+        <!-- Our Team Section-->
+        <section class="ourteam">
+            <h2 class="ourteam-title title">Our Team</h2>
+                <ul class="ourteam-list list">
+                    <li class="ourteam-members">
                         <img src="./ImagesSection1/img (1).jpg" alt="Mark Guerrero" width="264"/>
-                        <h3>Mark Guerrero</h3>
-                        <p>Product Designer</p>
+                        <div class="ourteam-name">                       
+                            <h3 class="ourteam-name name">Mark Guerrero</h3>
+                            <p>Product Designer</p>
+                        </div> 
                     </li>
-                    <li class="members">
+                    <li class="ourteam-members">
                         <img src="./ImagesSection1/img (4).jpg" alt="Tom Ford" width="264"/>
-                        <h3>Tom Ford</h3>
-                        <p>Frontend Developer</p>
+                        <div class="ourteam-name">  
+                            <h3 class="ourteam-name name">Tom Ford</h3>
+                            <p class="ourteam-text text">Frontend Developer</p>
+                        </div> 
                     </li>
-                    <li class="members">
+                    <li class="ourteam-members">
                         <img src="./ImagesSection1/img (2) (1).jpg" alt="Camila Garcia" width="264"/>
-                        <h3>Camila Garcia</h3>
-                        <p>Marketing</p>
+                        <div class="ourteam-name">  
+                            <h3 class="ourteam-name name">Camila Garcia</h3>
+                            <p class="ourteam-text text">Marketing</p>
+                        </div> 
                     </li>
-                    <li class="members">
+                    <li class="ourteam-members">
                         <img src="./ImagesSection1/img (3) (1).jpg" alt="Daniel Wilson" width="264"/>
-                        <h3>Daniel Wilson</h3>
-                        <p>UI Designer</p>
+                        <div class="ourteam-name">  
+                            <h3 class="ourteam-name name">Daniel Wilson</h3>
+                            <p class="ourteam-text text">UI Designer</p>
+                        </div> 
                     </li>
                 </ul>
         </section>
      </main>   
 
-     <footer>
-        <a href="webstudio" class="logofooter"><span>WEB</span>STUDIO</a>
-        <p class="bottom">Increase the flow of customers and <br/> sales for your business with digital <br/> marketing & growth solutions.</p>
+     <footer class="footer container">
+        <div class="footer-logo">
+            <a href="webstudio" class="footer-webstudio logo"> WEB<span>STUDIO</span></a>
+            <p class="footer-text text">Increase the flow of customers and <br/> sales for your business with digital <br/> marketing & growth solutions.</p>
+        </div>
     </footer>
     
 </body>

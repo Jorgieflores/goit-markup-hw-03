@@ -1,2 +1,2 @@
-# goit-markup-hw-02 
-first CSS styles
+# goit-markup-hw-03
+CSS styles
