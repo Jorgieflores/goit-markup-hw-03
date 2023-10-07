@@ -151,6 +151,11 @@ button:hover {
     padding: 32px 16px;
     line-height: 32px;
 }
+main li {
+    border-bottom: 2px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    margin-bottom: 20px;
+}
 /* End of Services Section  */
 
 
